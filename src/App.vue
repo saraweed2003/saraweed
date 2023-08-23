@@ -1,7 +1,7 @@
 <template>
-  <div :class="isDarkMode ? 'dark' : ''" class="">
+  <div :class="isDarkMode ? 'dark' : ''" class="bg">
     <div
-      class="bg-white min-h-screen sm:p-10 p-5 flex flex-col justify-center dark:bg-[#0e1013] duration-500 transition-all ease-in-out"
+      class="bg-white/80 min-h-screen sm:p-10 p-5 flex flex-col justify-center dark:bg-[#0e1013]/80 duration-500 transition-all ease-in-out"
     >
       <button @click="toggleDarkMode" class="animate-pulse">
         <ModeToggler
@@ -46,3 +46,13 @@ const toggleDarkMode = () => {
   }
 };
 </script>
+
+<style>
+.bg {
+  background-image: url("https://img.freepik.com/premium-photo/green-purple-shades-cannabis-plants-leaves_124507-52281.jpg");
+  background-size: cover; /* ทำให้ภาพปรับขนาดเพื่อเต็มจอ */
+  background-position: center; /* จัดตำแหน่งภาพให้อยู่กลาง */
+  background-repeat: no-repeat; /* ไม่ให้ภาพเติมซ้ำ */
+  
+}
+</style>
