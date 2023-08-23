@@ -13,12 +13,12 @@
     >
       SARAWEED
     </h1>
-    <hr class="border-1 my-4 border-gray-400 w-[150px] mx-auto" />
-    <p
+    <hr class="border-1 my-4 border-gray-400 w-[100px] mx-auto" />
+    <div
       class="text-center text-[16px] sm:text-[20px] text-gray-700 dark:text-gray-300"
     >
       Rapper | Producer
-    </p>
+    </div>
   </div>
 </template>
 
