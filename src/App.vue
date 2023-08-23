@@ -1,5 +1,5 @@
 <template>
-  <div :class="isDarkMode ? 'dark' : ''">
+  <div :class="isDarkMode ? 'dark' : ''" class="">
     <div
       class="bg-white min-h-screen sm:p-10 p-5 flex flex-col justify-center dark:bg-[#0e1013] duration-500 transition-all ease-in-out"
     >

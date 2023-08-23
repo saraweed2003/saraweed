@@ -3,7 +3,7 @@
     <div>
       <img
         src="https://yt3.ggpht.com/o9nGYNd2QfnSukk85iI6BxBezvxfVl0D0qtQd333fWzxNlCwgo2g4M__HWVYB7ZyzUSQrMLt=s600-c-k-c0x00ffffff-no-rj-rp-mo"
-        class="w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] mx-auto rounded-2xl shadow-md"
+        class="w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] mx-auto rounded shadow-md"
         href="https://www.youtube.com/@SARAWEED"
       />
     </div>
